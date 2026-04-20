@@ -1,1 +1,62 @@
-/*
+/* color palette for light & dark mode */
+
+:root {
+
+    /* colors for light mode */
+    /* backgrounds */
+    --bg-primary: #f5f0e8;
+    --bg-secondary: #fdfaf4;
+    --bg-tertiary: #eef5e4;
+    
+    /* text */
+    --text-primary: #1a1a1a;
+    --text-secondary: #5a7a40;
+    --text-muted: #7a9a58;
+
+    /* accent */
+    --accent: #3d6e2a;
+    --accent-hover: #2d5a1e;
+
+    /* berry */
+    --berry: #d94f6b;
+    --berry-hover: #c23d58;
+    --berry-soft: #fdeef1;
+
+    /* borders */
+    --border: #c8d8b0;
+    --border-strong: #a0b888;
+
+    /* fonts */
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'DM Sans', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+
+    /* layout */ 
+    --max-width: 860px;
+    --nav-height: 56px;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+}
+
+[data-theme='dark'] {
+    --bg-primary: #0e1209;
+    --bg-secondary: #161d10;
+    --bg-tertiary: #1e2e12;
+
+
+    --text-primary: #f0ece0;
+    --text-secondary: #7a9955;
+    --text-muted: #5a7a40;
+
+
+    --accent: #a8e060;
+    --accent-hover: #c0f070;
+
+    --berry: #f4a0b0;
+    --berry-hover: #f8bec8;
+    --berry-soft: #2e1018;
+
+    --border: #2e4020;
+    --border-strong: #4a6030;
+}
