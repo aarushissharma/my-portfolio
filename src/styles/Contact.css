@@ -1,0 +1,119 @@
+.contact-page {
+  padding: calc(var(--nav-height) + 60px) 24px 80px;
+  max-width: 640px;
+}
+
+.contact-header {
+  margin-bottom: 48px;
+}
+
+.contact-eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.contact-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.contact-sub {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.contact-link-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 28px;
+  border-bottom: 0.5px solid var(--border);
+  transition: background 0.2s ease;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.contact-link-item:last-child {
+  border-bottom: none;
+}
+
+.contact-link-item:hover {
+  background: var(--bg-secondary);
+}
+
+.contact-link-item:hover .contact-link-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+.contact-link-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-link-label {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.contact-link-value {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.contact-link-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-link-desc {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+.contact-link-arrow {
+  font-size: 1rem;
+  color: var(--text-muted);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-note {
+  margin-top: 32px;
+  font-size: 0.78rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  font-style: italic;
+  text-align: center;
+}

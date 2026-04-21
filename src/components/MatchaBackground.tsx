@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import './MatchaBackground.css'
+import '../styles/MatchaBackground.css'
 
 function MatchaBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)

@@ -1,4 +1,4 @@
-import './Navbar.css'
+import '../styles/Navbar.css'
 
 import { Link } from 'react-router-dom'
 
@@ -18,9 +18,12 @@ function Navbar({ theme, toggleTheme }: NavbarProps) {
           </Link>
           <div className="navbar-links">
             <Link to="/">menu</Link>
-            <Link to="/projects">projects</Link>
-            <Link to="/blog">blog</Link>
-            <Link to="/contact">order ↗</Link>
+            <Link to="/projects">specials</Link>
+            <Link to="/about">about</Link>
+            <Link to="/extras">extras</Link>
+            <Link to="/story">story</Link>
+            <Link to="/resume">résumé</Link>
+            <Link to="/contact" className="navbar-order">order ↗</Link>
           </div>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === 'dark' ? '☀' : '☾'}
