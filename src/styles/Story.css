@@ -1,0 +1,87 @@
+.story-page {
+  padding: calc(var(--nav-height) + 60px) 24px 100px;
+  max-width: 720px;
+}
+
+.story-header {
+  margin-bottom: 60px;
+}
+
+.story-eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.story-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.story-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.story-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.story-section {
+  display: flex;
+  gap: 48px;
+  padding: 40px 0;
+}
+
+.story-section-label {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--berry);
+  min-width: 100px;
+  padding-top: 6px;
+  flex-shrink: 0;
+}
+
+.story-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.story-text {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+  line-height: 1.85;
+}
+
+.story-divider {
+  border-top: 0.5px solid var(--border);
+}
+
+.story-closing-line {
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+.story-link {
+  color: var(--accent);
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.story-link:hover {
+  color: var(--accent-hover);
+}
