@@ -17,13 +17,11 @@ function Navbar({ theme, toggleTheme }: NavbarProps) {
             aarushi's code café
           </Link>
           <div className="navbar-links">
-            <Link to="/">menu</Link>
-            <Link to="/projects">specials</Link>
-            <Link to="/about">about</Link>
-            <Link to="/extras">extras</Link>
+            <Link to="/projects">drinks</Link>
+            <Link to="/extras">toppings</Link>
+            <Link to="/about">about the chef</Link>
             <Link to="/story">story</Link>
-            <Link to="/resume">résumé</Link>
-            <Link to="/contact" className="navbar-order">order ↗</Link>
+            <Link to="/contact" className="navbar-order">contact ↗</Link>
           </div>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === 'dark' ? '☀' : '☾'}

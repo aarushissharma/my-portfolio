@@ -3,21 +3,6 @@ import '../styles/About.css'
 import aarushi from '../assets/aarushi.jpeg'
 import TechCarousel from '../components/TechCarousel'
 
-const HOBBIES = [
-  { label: 'matcha', size: 'lg' },
-  { label: 'music production', size: 'md' },
-  { label: 'coffee shops', size: 'lg' },
-  { label: 'reading', size: 'sm' },
-  { label: 'hiking', size: 'sm' },
-  { label: 'film photography', size: 'md' },
-  { label: 'cooking', size: 'sm' },
-  { label: 'hackathons', size: 'md' },
-  { label: 'traveling', size: 'sm' },
-  { label: 'design', size: 'md' },
-  { label: 'open source', size: 'sm' },
-  { label: 'live music', size: 'md' },
-]
-
 function About() {
   return (
     <div className="about-page container">
@@ -105,17 +90,18 @@ function About() {
             </p>
             <p className="about-bio-text">
               Right now I'm incredibly interested in the core of AI and ML and
-              human-centered technology — building things that are not just technically
-              interesting but actually meaningful to the people using them.
+              human-centered technology. I love building things that are not just technically
+              interesting but actually meaningful to the people using them. But, don't get me wrong, I constantly find 
+              myself going down rabbitholes trying to understand the core of certain technologies and concepts.
             </p>
             <p className="about-bio-text">
-              When I'm not building things, you'll find me at a café working on music,
-              experimenting with film photography, or trying every matcha variation
-              on the menu. My favorite spot is cerē tea in Saratoga — their strawberry
-              Einspänner is something special.
+              Outside of working on projects, I love to express my creativity through mendhi designs, 
+              curating Spotify playlists for every mood on the planet, and of course, trying and 
+              reviewing cafes with friends. My favorite spot is cerē tea in Saratoga, I cannot 
+              get enough of their strawberry Einspänner.
             </p>
             <p className="about-bio-text">
-              I believe the best software is built slowly, thoughtfully, and with good
+              I believe the best software is built intentionally, thoughtfully, and with good
               taste — like a well-made matcha.
             </p>
           </div>
@@ -134,31 +120,7 @@ function About() {
         </motion.div>
       </div>
 
-      {/* HOBBIES ROW */}
-      <motion.div
-        className="about-hobbies-section"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-      >
-        <p className="about-hobbies-label">— off the clock</p>
-        <div className="hobbies-wrap">
-          {HOBBIES.map((h, i) => (
-            <motion.span
-              key={i}
-              className={`hobby-bubble hobby-bubble-${h.size}`}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              whileHover={{ scale: 1.08 }}
-              transition={{ duration: 0.3, delay: i * 0.04 }}
-              viewport={{ once: true }}
-            >
-              {h.label}
-            </motion.span>
-          ))}
-        </div>
-      </motion.div>
+      
 
       {/* TECH CAROUSEL */}
 

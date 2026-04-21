@@ -7,23 +7,23 @@ import '../styles/MenuBook.css'
 const MENU_ITEMS = [
   {
     section: "today's specials",
-    emoji: '☕',
-    name: 'specials',
+    emoji: '❀',
+    name: 'drinks',
     desc: 'projects built, shipped, and measured',
     href: '/projects',
-    tag: 'live dishes',
+    tag: 'my projects',
   },
   {
     section: 'the full menu',
-    emoji: '📋',
-    name: 'résumé',
-    desc: 'the complete ingredients list',
+    emoji: '❀',
+    name: 'ingredients',
+    desc: 'technical experience',
     href: '/resume',
-    tag: 'experience',
+    tag: 'my résumé',
   },
   {
     section: 'about the chef',
-    emoji: '👩‍🍳',
+    emoji: '❀',
     name: 'about',
     desc: "who's behind the kitchen",
     href: '/about',
@@ -31,15 +31,15 @@ const MENU_ITEMS = [
   },
   {
     section: 'the toppings',
-    emoji: '🫧',
-    name: 'extras',
+    emoji: '❀',
+    name: 'toppings',
     desc: 'leadership, teaching & beyond code',
     href: '/extras',
     tag: 'extracurriculars',
   },
   {
     section: 'the story',
-    emoji: '📖',
+    emoji: '❀',
     name: 'story',
     desc: 'why this café exists',
     href: '/story',
@@ -47,9 +47,9 @@ const MENU_ITEMS = [
   },
   {
     section: 'place your order',
-    emoji: '📬',
-    name: 'contact',
-    desc: "let's collaborate or just say hi",
+    emoji: '❀',
+    name: 'order',
+    desc: "let's collaborate!",
     href: '/contact',
     tag: 'reach out',
   },
@@ -70,8 +70,8 @@ function MenuBook() {
           <div className="book-spine" />
           <div className="book-cover">
             <p className="book-cover-eyebrow">aarushi's code café</p>
-            <h2 className="book-cover-title">The<br /><em>Menu</em></h2>
-            <p className="book-cover-sub">est. 2025 · santa cruz, ca</p>
+            <h1 className="book-cover-title">The<br /><em>Menu</em></h1>
+            <p className="book-cover-sub">est. 2026 · saratoga, ca</p>
             <div className="book-cover-hint">
               <span>open to browse</span>
               <span className="book-arrow">→</span>
@@ -93,12 +93,11 @@ function MenuBook() {
             <div className="book-page book-page-left">
               <div className="book-page-inner">
                 <p className="book-page-eyebrow">aarushi's code café</p>
-                <h2 className="book-page-title">The<br /><em>Menu</em></h2>
-                <p className="book-page-sub">est. 2025 · santa cruz, ca</p>
+                <h1 className="book-page-title">The<br /><em>Menu</em></h1>
+                <p className="book-page-sub">est. 2006 · saratoga, ca</p>
                 <div className="book-divider" />
                 <p className="book-page-note">
-                  Everything here is built from scratch —
-                  just code and too much matcha.
+                    coded with love and intention
                 </p>
               </div>
             </div>

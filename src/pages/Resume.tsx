@@ -14,7 +14,7 @@ function Resume() {
       <motion.div className="resume-header" {...fade(0)}>
         <div className="resume-header-left">
           <h1 className="resume-name">Aarushi <em>Sharma</em></h1>
-          <p className="resume-sub">Computer Engineering · UC Santa Cruz · 3.7 GPA</p>
+          <p className="resume-sub">Computer Engineering · UC Santa Cruz </p>
         </div>
         <div className="resume-header-right">
           <a href="mailto:ashar192@ucsc.edu" className="resume-contact-link">ashar192@ucsc.edu</a>

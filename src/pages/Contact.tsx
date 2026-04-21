@@ -18,7 +18,7 @@ const LINKS = [
     label: 'linkedin',
     value: 'linkedin.com/in/aarushi-sharmaa',
     href: 'https://linkedin.com/in/aarushi-sharmaa',
-    description: 'professional background',
+    description: "let's connect!",
   },
 ]
 
@@ -35,8 +35,7 @@ function Contact() {
         <p className="contact-eyebrow">— place your order</p>
         <h1 className="contact-title">Let's <em>Talk</em></h1>
         <p className="contact-sub">
-          Whether you want to collaborate, hire, or just say hi —
-          pull up a chair.
+            Always interested in collaborating with passionate people; feel free to reach out!
         </p>
       </motion.div>
 
@@ -70,7 +69,7 @@ function Contact() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}
       >
-        Currently open to summer 2026 internships.
+        Currently open to 2026 internships.
       </motion.p>
 
     </div>

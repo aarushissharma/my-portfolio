@@ -137,7 +137,7 @@ function Projects() {
         transition={{ duration: 0.5 }}
       >
         <p className="projects-eyebrow">— today's specials</p>
-        <h2 className="projects-title">The <em>Menu</em></h2>
+        <h2 className="projects-title">The <em>Drinks</em></h2>
         <p className="projects-sub">01 — 05 &nbsp;·&nbsp; kitchen open</p>
       </motion.div>
 

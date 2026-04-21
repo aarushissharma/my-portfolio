@@ -23,7 +23,7 @@ function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          Aarushi<br /><em>Sharma</em>
+          Aarushi Sharma's<br /><em>Code Café</em>
         </motion.h1>
         <motion.p
           className="hero-tagline"
@@ -31,8 +31,7 @@ function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Computer engineering student building things at the
-          intersection of ML, infrastructure, and good design.
+            _____
         </motion.p>
         <motion.div
             className="hero-scroll"
@@ -65,12 +64,13 @@ function Home() {
         <div className="welcome-inner">
           <p className="welcome-eyebrow">— welcome to the café</p>
           <p className="welcome-text">
+
             A portfolio inspired by the coffee shops and matcha cafés
             where I do my best thinking. Consider this your menu.
           </p>
         </div>
         <div className="welcome-stamp">
-          <span className="stamp-text">est.<br />2025</span>
+          <span className="stamp-text">est.<br />2007</span>
         </div>
       </motion.section>
 
