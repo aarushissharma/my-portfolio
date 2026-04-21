@@ -4,10 +4,12 @@
 
 /* hero */
 .hero {
-  padding: 80px 24px 60px;
+  padding: calc(var(--nav-height) + 60px) 24px 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: relative;
+  min-height: 60vh;
 }
 
 .hero-eyebrow {

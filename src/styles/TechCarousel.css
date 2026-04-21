@@ -48,6 +48,8 @@
   cursor: grab;
   scrollbar-width: none;
   user-select: none;
+  scroll-snap-type: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 .tech-track::-webkit-scrollbar {
